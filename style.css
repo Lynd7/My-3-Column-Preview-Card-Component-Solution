@@ -19,20 +19,20 @@
 }
 .icon[data-icon="sedans-icon"] {
     content:"";
-    width: 64px;
-    height: 40px;
+    width: 4rem;
+    height: 2.5rem;
     background-image: url(images/icon-sedans.svg);
 }
 .icon[data-icon="suvs-icon"] {
     content:"";
-    width: 64px;
-    height: 40px;
+    width: 4rem;
+    height: 2.5rem;
     background-image: url(images/icon-suvs.svg);
 }
 .icon[data-icon="luxury-icon"] {
     content:"";
-    width: 64px;
-    height: 40px;
+    width: 4rem;
+    height: 2.5rem;
     background-image: url(images/icon-luxury.svg);
 }
 
@@ -41,14 +41,13 @@ body {
     display: grid;
     place-content: center;
     background-color: var(--clr-neutral-gray);
-    font-size: 15px;
+    font-size: .938rem;
 }
 .container {
-    --column-height: 400px;
-    --column-padding: 35px;
-    --column-width: 300px;
+    --column-height: 25rem;
+    --column-padding: 2.188rem;
+    --column-width: 18.75rem;
 
-    margin: 40px;
     border-radius: 7px;
     overflow: hidden;
 }
@@ -73,27 +72,27 @@ body {
 }
 /* -- Titles Styles -- */
 
-h1 {
+h2 {
     text-transform: uppercase;
     font-family: var(--ff-Big);
     color: var(--clr-neutral-gray) ;
-    margin: 25px 0 20px 0;
+    margin: 1.563rem 0 1.25rem 0;
 }
 
 /* -- Text Styles -- */
 p {
     color: var(--clr-neutral-white);
     font-family: var(--ff-Deca);
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 /* -- Aanchor tags Styles -- */
 a {
     text-decoration: none;
     background-color: var(--clr-neutral-gray);
     font-family: var(--ff-Deca);
-    padding: 12px 30px;
+    padding: 0.75rem 1.875rem;
     border-radius: 40px;
-    font-size: 12px;
+    font-size: 0.75rem;
     transition: 0.5s;
 }
 .sedans a {
@@ -111,26 +110,26 @@ a:is(:hover, :focus) {
     border: 2px solid var(--clr-neutral-gray);
 }
 
-@media (min-width:380px) {
+@media (min-width:900px) {
     .container {
-        --column-height: 500px;
-        --column-padding: 40px;
-        --column-width: 320px;
+        --column-height: 31.25em;
+        --column-padding: 2.5em;
+        --column-width: 20em;
 
-        margin: 40px;
-        display: flex;     
+        display: flex;
+    
         }
         
-        h1 {
-            font-size: 40px;
+        h2 {
+            font-size: 2.5em;
     
         }
         p {
-            line-height: 1.8;
-            margin-bottom: 100px;
-            width: 88%;
+            line-height: 1.6;
+            margin-bottom: 6em;
+            width: 93%;
         }
         a {
-            font-size: 15px;
+            font-size: .938em;
         }
 }
