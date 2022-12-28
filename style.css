@@ -131,8 +131,6 @@ a:is(:hover, :focus) {
             width: 88%;
         }
         a {
-            padding: 12px 30px;
-            border-radius: 40px;
             font-size: 15px;
         }
 }
